@@ -14,4 +14,9 @@ public class HomeController {
 		return "Hello from spring boot";
 	}
 	
+	@GetMapping("/msg1")
+	public String getMsg1()
+	{
+		return "Bye Bye";
+	}
 }
